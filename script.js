@@ -1,8 +1,8 @@
 $(document).ready(function() {
-  $('.myButton').click(function(){
+  $('#hideimages').click(function(){
       $('.directions').fadeOut('fast');
   });
-  $('.myButton2').click(function(){
+  $('#showimages').click(function(){
     $('.directions').fadeIn('fast');
   
   });
