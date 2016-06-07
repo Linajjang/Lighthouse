@@ -1,9 +1,9 @@
 $(document).ready(function() {
   $('#hideimages').click(function(){
-      $('.directions').fadeOut('fast');
+      $('.directions img').fadeOut('fast');
   });
   $('#showimages').click(function(){
-    $('.directions').fadeIn('fast');
+    $('.directions img').fadeIn('fast');
   
   });
 });
