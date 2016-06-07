@@ -4,7 +4,6 @@ $(document).ready(function() {
   });
   $('#showimages').click(function(){
     $('.directions img').fadeIn('fast');
-  
   });
 });
 
