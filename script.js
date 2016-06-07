@@ -1,7 +1,3 @@
-$(document).ready(function(){
-  console.log("Script included!")
-});
-
 $(document).ready(function() {
   $('.myButton').click(function(){
       $('.directions').fadeOut('fast');
