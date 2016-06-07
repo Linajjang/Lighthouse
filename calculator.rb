@@ -1,24 +1,24 @@
 class Calculator
     
-  def initialize(a,b)
+    def initialize(a,b)
         @a = a
         @b = b
-  end
+    end
     
-  def add
-   puts @a + @b
-  end
+    def add
+        puts @a + @b
+    end
   
-  def subtract
-    puts @a - @b
-  end
+    def subtract
+        puts @a - @b
+    end
   
-  def multiply
-    puts @a * @b
-   end
+    def multiply
+        puts @a * @b    
+    end
    
-   def divide
-    puts @a / @b
+    def divide
+        puts @a / @b
     end
 end 
 
